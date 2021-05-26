@@ -14,6 +14,11 @@ body.night {
     color: #afafbf !important;
 }
 
+footer.night {
+    background-color: #171c28 !important;
+    color: #afafbf !important;
+}
+
 .night {
     background-color: #171c28 !important;
     color: #e7e7e7 !important;
@@ -220,4 +225,47 @@ strong {
     -ms-flex-pack: center;
     justify-content: center;
     padding: 100px 145px;
+}
+
+.skills-list {
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+.project__used__item {
+    display: inline-block;
+    margin: 3px 3px 3px 0;
+    font-family: Inconsolata,monospace;
+    font-size: .75rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: #5C31EC;
+    border: 1px solid #5C31EC;
+    background: 0 0;
+}
+
+.fa-arrow-right {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-weight: 700;
+    display: inline-block;
+    color: #5C31EC;
+    white-space: nowrap;
+    margin-left: 5px;
+}
+
+.arrow-link:hover > .fa-arrow-right {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    position: relative;
+    bottom: 2px;
+    margin-left: 10px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer a {
+    text-decoration: none;
 }
