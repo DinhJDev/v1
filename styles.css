@@ -304,9 +304,38 @@ footer a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1400px) {
     .section {
-        padding: 50px 35px;
+        justify-content:center;
+        display: block;
+    }
+    
+    .section__title {
+        text-align: left;
+        width: auto;
+        padding-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .section {
+        padding: 100px;
+    }
+
+    .section__title {
+        text-align: left;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .section {
+        padding: 50px;
+    }
+
+    .section__title {
+        text-align: left;
+        width: auto;
     }
 }
 
@@ -350,5 +379,21 @@ footer a {
 
     .heading-contact {
         margin-top: 2.4em !important;
+    }
+    
+    .form-switch {
+        padding-top: .4em;
+    }
+    
+}
+
+
+@media screen and (max-width: 480px){
+    .section {
+        padding: 50px 35px;
+    }
+    .section__title {
+        text-align: left;
+        width: auto;
     }
 }

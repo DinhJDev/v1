@@ -53,6 +53,8 @@ window.onload = function() {
 $(function () {
     $('#nightModeSwitch').change(function() {
         $('body').toggleClass('night', this.checked)
+        $('nav').toggleClass('bg-light', this.unchecked)
+        $('nav').toggleClass('bg-dark', this.checked)
     })
     
     setInterval(() => {
