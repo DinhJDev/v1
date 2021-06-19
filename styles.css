@@ -303,3 +303,52 @@ strong {
 footer a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 480px){
+    .section {
+        padding: 50px 35px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .section {
+        display: block;
+    }
+
+    .section__title {
+        text-align: left;
+        width: auto;
+    }
+
+    #about {
+        margin-top: 5em;
+    }
+
+    .home-content {
+        padding: 1em 0 2rem!important;
+        text-align: left;
+    }
+
+    .home-header {
+        padding-top: 4em !important;
+    }
+    .typewrite .wrap {
+        font-size: 1.4em!important;
+    }
+
+    .heading-name {
+        margin-top: 1.4em !important;
+        font-size: 1.4em!important;
+    }
+
+    .heading {
+        font-size: 2em!important;
+        padding-left: 50px!important;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+    }
+
+    .heading-contact {
+        margin-top: 2.4em !important;
+    }
+}
