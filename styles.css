@@ -10,6 +10,14 @@ body {
     color: inherit;
 }
 
+.experience__company {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-decoration: none !important;
+    font-weight: 700 !important;
+    color: inherit;
+}
+
 body.night {
     color: #afafbf !important;
 }
