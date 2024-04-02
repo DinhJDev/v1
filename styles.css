@@ -298,8 +298,11 @@ strong {
     margin-left: 5px;
 }
 
-.inactive-arrow > .fa-arrow-right {
-    color: #6b6875;
+.fas .fa-arrow-right .inactive-arrow {
+    color: #b3afbf;
+}
+
+.arrow-link:hover > .fas .fa-arrow-right .inactive-arrow {
 }
 
 .arrow-link:hover > .fa-arrow-right {
