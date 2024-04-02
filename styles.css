@@ -298,6 +298,16 @@ strong {
     margin-left: 5px;
 }
 
+.arrow-link-inactive {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-weight: 700;
+    display: inline-block;
+    color: #6b6875;
+    white-space: nowrap;
+    margin-left: 5px;
+}
+
 .arrow-link:hover > .fa-arrow-right {
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
